@@ -23,25 +23,24 @@ PRODUCT_PACKAGES += \
 
 # GApps
 PRODUCT_COPY_FILES += \
-#	vendor/ganbarou/gapps/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
-#	vendor/ganbarou/gapps/proprietary/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-#	vendor/ganbarou/gapps/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
-#	vendor/ganbarou/gapps/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-#	vendor/ganbarou/gapps/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-#	vendor/ganbarou/gapps/proprietary/etc/permissions/features.xml:system/etc/permissions/features.xml \
-#	vendor/ganbarou/gapps/proprietary/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
-#	vendor/ganbarou/gapps/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
-#	vendor/ganbarou/gapps/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-#	vendor/ganbarou/gapps/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-#	vendor/ganbarou/gapps/proprietary/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
-#	vendor/ganbarou/gapps/proprietary/lib/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so \
-#	vendor/ganbarou/gapps/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
-#	vendor/ganbarou/gapps/proprietary/app/GmsCore.apk:system/app/GmsCore.apk \
-#	vendor/ganbarou/gapps/proprietary/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
-#	vendor/ganbarou/gapps/proprietary/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
-#	vendor/ganbarou/gapps/proprietary/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-#	vendor/ganbarou/gapps/proprietary/app/GoogleOneTimeInitializer.apk:system/app/GoogleOneTimeInitializer.apk \
-#	vendor/ganbarou/gapps/proprietary/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-#	vendor/ganbarou/gapps/proprietary/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-#	vendor/ganbarou/gapps/proprietary/app/Phonesky.apk:system/app/Phonesky.apk \
-#	vendor/ganbarou/gapps/proprietary/app/SetupWizard.apk:system/app/SetupWizard.apk \
+	vendor/ganbarou/gapps/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
+	vendor/ganbarou/gapps/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
+	vendor/ganbarou/gapps/proprietary/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+	vendor/ganbarou/gapps/proprietary/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
+	vendor/ganbarou/gapps/proprietary/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
+	vendor/ganbarou/gapps/proprietary/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
+	vendor/ganbarou/gapps/proprietary/app/Phonesky.apk:system/app/Phonesky.apk \
+	vendor/ganbarou/gapps/proprietary/app/SetupWizard.apk:system/app/SetupWizard.apk \
+	vendor/ganbarou/gapps/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+	vendor/ganbarou/gapps/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+	vendor/ganbarou/gapps/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+	vendor/ganbarou/gapps/proprietary/etc/permissions/features.xml:system/etc/permissions/features.xml \
+	vendor/ganbarou/gapps/proprietary/etc/g.prop:system/etc/g.prop \
+	vendor/ganbarou/gapps/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+	vendor/ganbarou/gapps/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+	vendor/ganbarou/gapps/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+	vendor/ganbarou/gapps/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
+	vendor/ganbarou/gapps/proprietary/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
+	vendor/ganbarou/gapps/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+	vendor/ganbarou/gapps/proprietary/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so
+	
